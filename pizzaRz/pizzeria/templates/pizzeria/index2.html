@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+
+<body>
+<!-- NAWIGACJA -->
+
+
+<div style="background-image:linear-gradient(#922e17,#e04d2b)" >
+
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-danger" id="navBAR"> 
+<div class="container-fluid">									
+<a class="navbar-brand" href="index.html"><img src="logo4.png"></img></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+		<li class="nav-item active"><button class="koniec" data-toggle="modal" data-target="#myModal4" >Witaj USERNAME</button></li>
+			
+			<a href="logout.html"><li class="nav-item koniec" >Wyloguj
+			</li></a>
+
+			<li class="nav-item active">
+				<a href="https://www.youtube.com/"><img src="youtube.png" ></img></a>
+			</li>
+			<li class="nav-item">
+				<a href="https://twitter.com/"><img src="twitter.png" ></img></a>
+			</li>
+			<li class="nav-item">
+				<a href="https://www.facebook.com/"><img src="facebook.png"></img></a>
+			</li>
+		</ul>
+	</div>
+					
+
+</div>
+</nav>
+
+
+<!-- zamawiaj jedzenie online -->
+
+
+<div style=" margin-top:50px;margin-bottom:50px;padding-bottom:50px">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12">
+				<img class="img-fluid"  src="pizza.png" ></img>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<p class="display-4" style="color:white"> Zamów pizzę online <p>
+<p class="display-6" style="color:white"> Wybierz miasto i znajdź ulubioną restaurację </p> 
+				<div class="btn-group">
+  <button type="button" class="btn-lg btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Wybierz miasto
+  </button>
+  <div class="dropdown-menu">
+	<form action="pizzerie_rzeszow.html" method="get"><input class="dropdown-item" type="submit"  value="Rzeszów" name="m" >
+	<input class="dropdown-item"  type="submit" value="Przemyśl" name="m" >
+	<input class="dropdown-item"  type="submit" value="Stalowa Wola" name="m" >
+	<input class="dropdown-item"   type="submit"  value="Mielec" name="m" >
+	<input class="dropdown-item" type="submit" value="Tarnobrzeg" name="m">
+	<input class="dropdown-item"   type="submit"  value="Dębica" name="m"></form>
+   <!--  <a class="dropdown-item" href="#">Przemyśl</a>
+    <a class="dropdown-item" href="#">Stalowa Wola</a>
+    <a class="dropdown-item" href="#">Mielec</a>
+    <a class="dropdown-item" href="#">Tarnobrzeg</a>
+	<a class="dropdown-item" href="#">Dębica</a> -->
+  </div>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LUBISZ DOBRZE ZJEŚĆ? -->
+
+<div style="background-color:white; margin-top:50px">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12">
+				<img class="img-fluid float-left"  src="stok.jpg" id="stok"></img>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h4 style="color:red; margin-top:20px">Naszą pasją jest jedzenie!<h4>
+				<p style="font-size:14px; margin-top:25px">Lubisz dobrze zjeść? My także! Może masz ochotę aby spróbować czegoś dobrego nie wychodząc z domu? Zamów swoją ulubioną pizzę w kilka chwil! U nas zamawiać możesz 
+				wszędzie. Do biura, lub znajomych? Nie ma problemu. Ciesz się świeżo przygotowaną pizzą gdziekolwiek jesteś. Współpracujemy z klikudziesięcioma pizzeriami w całym
+				Podkarpaciu! A to wszystko dla Twojej wygody!</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- CENISZ SOBIE WYGODE --> 
+<div style="background-color:white; margin-top:50px">
+	<div class="container">
+		<div class="row">
+			<div class="d-md-none d-xl-none col-sm-12">
+				<img class="img-fluid float-right"  src="pizza2.jpg" id="pizza2"></img>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h4 style="color:red; margin-top:20px">Cenisz sobie wygodę? Rozumiemy to!<h4>
+				<p style="font-size:14px; margin-top:25px">Pamietasz czasy, gdy podczas zamawiania pizzy musiałeś przeglądać oferty z kilkunastu ulotek? Z nami to już przeszłość!
+					Nasza prosta porównywarka cen w kilka chwil wybierze dla Ciebie tanie - a co najważniejsze smaczne jedzenie! I to w dodatku online! Wszystko jest dziecinnie proste, 
+					kiedy zamawiasz z Pizza Podkarpacie!</p>
+			</div>
+			<div class="col-md-8 d-none d-md-block d-xl-block">
+				<img class="img-fluid float-right"  src="pizza2.jpg" id="pizza3"></img>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- JAK ZAMOWIC JEDZENIE NA PODKARPACIE PIZZA? --> 
+
+<div style="background-color:white; margin-top:50px">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12">
+				<img class="img-fluid float-left"  src="pizzaDELI.jpg" id="dostawca"></img>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h4 style="color:red; margin-top:20px">Jak zamówić jedzenie na Pizza Podkarpacie?<h4>
+				<p style="font-size:14px;margin-top:20px">To dziecinnie proste! Kilka łatwych kroków i dostawa dostarczona pod Twój adres.</p>
+				<p style="font-size:14px">- Podaj swój adres dostawy</p>
+				<p style="font-size:14px">- Wybierz restaurację, w której chcesz zamówić </p>
+				<p style="font-size:14px">- Wybierz dania, na które masz ochotę i dodaj je do koszyka</p>
+				<p style="font-size:14px">- Zapłać za zamówienie gotówką przy odbiorze</p>
+				<p style="font-size:14px">I gotowe! Smacznie, szybko i tak jak lubisz! Przejrzyj ofertę pizzeri w Podkarpaciu i zamów już teraz!</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- dol strony -->
+
+<div style="background-color:gray; margin-top:50px;margin-bottom:50px; padding-top:10px; padding-bottom:30px">
+	<div class="container" >
+		<div class="row" style="margin-top:20px">
+			<div class="col-md-4 " style="color:white">
+				mail: PizzaPodkarpacie@gmail.com
+			</div>
+			<div class="col-md-3 " style="color:white">
+				telefon: 999 999 999
+			</div>
+		</div>
+		<div class="row" style="margin-top:20px">
+		<div class="col-10">
+			<a href="https://www.youtube.com/"><img src="youtube.png" ></img></a>
+		
+			<a href="https://twitter.com/"><img src="twitter.png" ></img></a>
+		
+			<a href="https://www.facebook.com/"><img src="facebook.png"></img></a>
+		</div>
+		</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+<!-- Button to Open the Modal -->
+
+
+<!-- The Modal -->
+<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="text-align:center">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Zaloguj się</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" >
+			<form action="zaloguj.html" method="post">
+				<input type="text" placeholder="login" name="login" required>
+			
+				<input type="password" placeholder="haslo" name="haslo" required>
+				
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer" style="text-align:center">
+		
+			<button class="rejestracja" data-toggle="modal" data-dismiss="modal" data-target="#myModal2">Zarejestruj się</button>
+			<input class="btn btn-primary"  type="submit" value="Zaloguj" />
+			</form>
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Wyjdź</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+    <div class="modal fade" id="myModal4">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content" style="text-align:center">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Twoje konto </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="text-align: left;">Twój nick: 
+<br><br>
+Twój mail:
+<br><br>
+Twój identyfikator konta:
+<br>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer" style="text-align:center">
+			
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Wyjdź</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			$('#navBAR').css("opacity",1-$(window).scrollTop() / 500)
+			$('#stok').css("opacity",2-$(window).scrollTop() / 500)
+			$('#pizza2').css("opacity",-0.7+$(window).scrollTop() / 500)
+			$('#dostawca').css("opacity",-1.4+$(window).scrollTop() / 500)
+			$('#pizza3').css("opacity",-0.7+$(window).scrollTop() / 500)
+			})
+		})
+	
+	
+	
+</script>
+
+</body>
+
+
+</html>
