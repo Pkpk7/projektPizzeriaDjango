@@ -52,7 +52,7 @@ def ajax(request):
     if len(nick) < 3 or len(nick) > 20:
             print("Wszedłem tutaj")
             wszystko_OK = False
-            request.session.e_nick = "Nick musi posiadac od 3 do 20 znakow"
+            request.session.e_nick = "Nick musi posiadac od 3 do 20 znakow (test)"
     else:
         request.session.e_nick = ""
     #Sprawdzamy mail
